@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.box {
+        margin: 10px 0;
+      }
+      table tr th {text-align: left;}
+      .th_head {
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+      }
+      .th_head * {
+        padding: 5px 5px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/framework.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/link.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/popbox.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/menu.css" type="text/css" charset="utf-8">
+    
+    <script type="text/javascript" charset="utf-8" src="http://yandex.st/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/popbox.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        $('.popbox').popbox();
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid_12">
+        <!-- begin links -->
+        <div class="box"><h1 id="buttons">Links</h1></div>
+        <div class="box">
+          <a href="dfs#">test (a)</a>
+        </div>
+        <!-- end links -->
+        <!-- begin buttons -->
+        <div class="box"><h1 id="buttons">Buttons</h1></div>
+        <table border="0" cellspacing="5" cellpadding="5" width="100%">
+          <tr>
+            <th width="50%">button</th>
+            <th width="50%">button with image</th>
+          </tr>
+          <tr class="th_head">
+            <th colspan="2">.button.large2x</th>
+          </tr>
+          <td>
+            <div class="box">
+              <a href="#" class="button large2x">тест (a)</a>
+              <button class="button large2x">test (button)</button>
+              <input class="button large2x" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x primary">test (a)</a>
+              <button class="button large2x primary">test (button)</button>
+              <input class="button large2x primary" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x danger">test (a)</a>
+              <button class="button large2x danger">test (button)</button>
+              <input class="button large2x danger" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x blue">test (a)</a>
+              <button class="button large2x blue">test (button)</button>
+              <input class="button large2x blue" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x dark-grey">test (a)</a>
+              <button class="button large2x dark-grey">test (button)</button>
+              <input class="button large2x dark-grey" type="submit" name="test" value="test (input)">
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <a href="#" class="button large2x"><span class="icon-coffee"></span> test (a)</a>
+              <button class="button large2x"><span class="icon-coffee"></span> test (button)</button>
+              <input class="button large2x icon-coffee" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x primary"><span class="icon-coffee"></span> test (a)</a>
+              <button class="button large2x primary"><span class="icon-coffee"></span> test (button)</button>
+              <input class="button large2x primary icon-coffee" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x danger"><span class="icon-coffee"></span> test (a)</a>
+              <button class="button large2x danger"><span class="icon-coffee"></span> test (button)</button>
+              <input class="button large2x danger icon-coffee" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x blue"><span class="icon-coffee"></span> test (a)</a>
+              <button class="button large2x blue"><span class="icon-coffee"></span> test (button)</button>
+              <input class="button large2x blue icon-coffee" type="submit" name="test" value="test (input)">
+            </div>
+            <div class="box">
+              <a href="#" class="button large2x dark-grey"><span class="icon-coffee"></span> test (a)</a>
+              <button class="button large2x dark-grey"><span class="icon-coffee"></span> test (button)</button>
+              <input class="button large2x dark-grey icon-coffee" type="submit" name="test" value="test (input)">
+            </div>
+          </td>
+        </tr>
+        <tr class="th_head">
+          <th colspan="2">.button.large</th>
+        </tr>
+          <tr>
+            <td>
+              <div class="box">
+                <a href="#" class="button large">тест (a)</a>
+                <button class="button large">test (button)</button>
+                <input class="button large" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large primary">test (a)</a>
+                <button class="button large primary">test (button)</button>
+                <input class="button large primary" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large danger">test (a)</a>
+                <button class="button large danger">test (button)</button>
+                <input class="button large danger" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large blue">test (a)</a>
+                <button class="button large blue">test (button)</button>
+                <input class="button large blue" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large dark-grey">test (a)</a>
+                <button class="button large dark-grey">test (button)</button>
+                <input class="button large dark-grey" type="submit" name="test" value="test (input)">
+              </div>
+            </td>
+            <td>
+              <div class="box">
+                <a href="#" class="button large"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button large"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button large icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large primary"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button large primary"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button large primary icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large danger"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button large danger"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button large danger icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large blue"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button large blue"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button large blue icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button large dark-grey"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button large dark-grey"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button large dark-grey icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+            </td>
+          </tr>
+          <tr class="th_head">
+            <th colspan="2">.button</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="box">
+                <a href="#" class="button">test (a)</a>
+                <button class="button">test (button)</button>
+                <input class="button" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button primary">test (a)</a>
+                <button class="button primary">test (button)</button>
+                <input class="button primary" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button danger">test (a)</a>
+                <button class="button danger">test (button)</button>
+                <input class="button danger" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button blue">test (a)</a>
+                <button class="button blue">test (button)</button>
+                <input class="button blue" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button dark-grey">test (a)</a>
+                <button class="button dark-grey">test (button)</button>
+                <input class="button dark-grey" type="submit" name="test" value="test (input)">
+              </div>
+            </td>
+            <td>
+              <div class="box">
+                <a href="#" class="button"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button primary"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button primary"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button primary icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button danger"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button danger"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button danger icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button blue"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button blue"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button blue icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+              <div class="box">
+                <a href="#" class="button dark-grey"><span class="icon-coffee"></span> test (a)</a>
+                <button class="button dark-grey"><span class="icon-coffee"></span> test (button)</button>
+                <input class="button dark-grey icon-coffee" type="submit" name="test" value="test (input)">
+              </div>
+            </td>
+          </tr>
+        </table>
+        
+        <div class="box">
+          <p>с иконками не может быть тег input или любой другой "закрытый" элемент</p>
+        </div>
+        
+        <hr />
+        
+        <div class="box">
+          <a href="#" class="button switcher "><span><i>Type: </i>Switcher</span></a>
+        </div>
+        
+        <hr />
+
+        <div class="box">
+          <!-- default -->
+          <div class="popbox" data-width="250px">
+            <a href="#" class="button switcher popbox-open"><span><i>Type: </i>Default with menu</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <div class="popbox-menu">
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit.</div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">Lorem ipsum dolor sit amet, consec tetur adipisicing elit.</div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">Lorem ipsum dolor sit amet, consec tetur adipisicing elit.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- left -->
+          <div class="popbox" data-width="250px" data-align="left">
+            <a href="#" class="button switcher popbox-open"><span><i>Type: </i>Left with multiselect menu</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <div class="popbox-menu multiselect">
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit.</div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">Lorem ipsum dolor sit amet, consec tetur adipisicing elit.</div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">Lorem ipsum dolor sit amet, consec tetur adipisicing elit.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- center -->
+          <div class='popbox' data-width="250px" data-align="center">
+            <a href="#" class="button switcher popbox-open"><span><i>Type: </i>Center</span></a>
+            <div class='collapse'>
+              <div class='popbox-box'>
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <p class="popbox-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class='popbox' data-width="250px" data-align="right">
+            <a href="#" class="button switcher popbox-open"><span><i>Type: </i>Right</span></a>
+            <div class='collapse'>
+              <div class='popbox-box'>
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <p class="popbox-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="box">
+            <ul>
+              <li>меню с пунктами, тип <strong>radio</strong></li>
+              <li>меню с пунктами, тип <strong>multiselect</strong></li>
+              <li>просто текст</li>
+              <li>просто текст</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="box">
+          <!-- default -->
+          <div class="popbox">
+            <a href="#" class="button switcher popbox-open"><span><span class="icon-align-justify mini-icon"></span><i>Type: </i>Default</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <div class="popbox-menu">
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>Lorem ipsum dolor</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>Lorem ipsum dolor</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>Lorem ipsum dolor</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- left -->
+          <div class="popbox" data-align="left">
+            <a href="#" class="button switcher popbox-open"><span><span class="icon-align-left mini-icon"></span><i>Type: </i>Left</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <div class="popbox-content">
+                  <div><strong>Some information</strong></div>
+                  Lorem ipsum dolor sit amet, consec tetur adipis icing elit.
+                </div>
+                <div class="popbox-menu multiselect">
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <span class="popbox-menu-item-image">
+                      <img src="images/picture.png" alt="Picture">
+                    </span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>John Doe</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <span class="popbox-menu-item-image">
+                      <img src="images/picture.png" alt="Picture">
+                    </span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>John Doe</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <span class="popbox-menu-item-image">
+                      <img src="images/picture.png" alt="Picture">
+                    </span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>John Doe</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- center -->
+          <div class="popbox" data-align="center">
+            <a href="#" class="button switcher popbox-open"><span><span class="icon-align-center mini-icon"></span><i>Type: </i>Center</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <div class="popbox-error">
+                  <div><strong>Some error</strong></div>
+                  Lorem ipsum dolor sit amet, consec tetur adipis icing elit.
+                </div>
+                <div class="popbox-content">
+                  <div><strong>Some information</strong></div>
+                  Lorem ipsum dolor sit amet, consec tetur adipis icing elit.
+                </div>
+                <div class="popbox-menu multiselect">
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <span class="popbox-menu-item-image">
+                      <img src="images/picture.png" alt="Picture">
+                    </span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>John Doe</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <span class="popbox-menu-item-image">
+                      <img src="images/picture.png" alt="Picture">
+                    </span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>John Doe</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                  <div class="popbox-menu-item">
+                    <span class="popbox-menu-item-icon icon-ok"></span>
+                    <span class="popbox-menu-item-image">
+                      <img src="images/picture.png" alt="Picture">
+                    </span>
+                    <div class="popbox-menu-item-content">
+                      <div><strong>John Doe</strong></div>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="popbox" data-align="right">
+            <a href="#" class="button switcher popbox-open"><span><span class="icon-align-right mini-icon"></span><i>Type: </i>Right</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <p class="popbox-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <hr />
+                  <center><span class="button">button</span></center>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="box">
+            <ul>
+              <li>меню с пунктами, в пунктах есть заголовки, тип <strong>radio</strong></li>
+              <li>меню с пунктами и контекстной информацией, в пунктах есть заголовки, картинки, тип <strong>multiselect</strong></li>
+              <li>меню с пунктами, контекстной информацией, информацией об ошибке, в пунктах есть заголовки, картинки, тип <strong>multiselect</strong></li>
+              <li>просто текст с кнопкой</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="box">
+          <div class="popbox" data-align="">
+            <a href="#" class="button switcher with-image popbox-open"><span><img src="images/picture.png" width="20" alt="Picture"> Switcher</span></a>
+            <div class="collapse">
+              <div class="popbox-box">
+                <div class="title">
+                  <span class="title">Название заголовка</span>
+                  <span class="icon-remove-circle popbox-close">&nbsp;</span>
+                </div>
+                <p class="popbox-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <hr />
+                  <center><span class="button">button</span></center>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="box">
+          <a href="#" class="button context-button"></a>
+        </div>
+
+        <hr />
+
+        <div class="box">
+          <a href="#" class="button lighter"><span class="mini-icon icon-eye-open"></span>Watch</a><a class="social-count" href="#">6</a>
+        </div>
+
+        <hr />
+
+        <div class="box">
+          <p>
+            <div class="button-group">
+              <button type="button" class="button">Raw</button>
+              <button type="button" class="button">Normal</button>
+              <button type="button" class="button">History</button>
+            </div>
+          </p>
+          <p>
+            <div class="button-group">
+              <button type="button" class="button">Raw</button>
+              <button type="button" class="button">Normal</button>
+              <button type="button" class="button">History</button>
+            </div>
+            <button type="button" class="button">Blame</button>
+          </p>
+
+          <p>
+            <div class="button-group">
+              <button type="button" class="button primary">Raw</button>
+              <button type="button" class="button primary">Normal</button>
+              <button type="button" class="button primary">History</button>
+            </div>
+          </p>
+          <p>
+            <div class="button-group">
+              <button type="button" class="button primary">Raw</button>
+              <button type="button" class="button primary">Normal</button>
+              <button type="button" class="button primary">History</button>
+            </div>
+            <button type="button" class="button primary">Blame</button>
+          </p>
+          <p>
+            <div class="button-group">
+              <button type="button" class="button empty-icon primary"><span class="mini-icon icon-th-large"></span></button>
+              <button type="button" class="button empty-icon dark-grey"><span class="mini-icon icon-th"></span></button>
+              <button type="button" class="button empty-icon blue"><span class="mini-icon icon-th-list"></span></button>
+            </div>
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="box">
+          text <span class="hidden-text-expander"><a href="#">…</a></span> text
+        </div>
+
+        <hr />
+
+        <div class="box">
+          text<span class="hidden-text-expander inline"><a href="#">…</a></span> text
+        </div>
+        <!-- end -->
+      </div>
+    </div>
+
+      
+  </body>
+</html>

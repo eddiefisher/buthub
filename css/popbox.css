@@ -1,0 +1,61 @@
+.popbox {
+  margin: 0px auto;
+  position: relative;
+  display: inline-block;
+}
+.popbox .collapse {
+  position: relative;
+}
+.popbox .popbox-open {
+}
+.popbox .popbox-box {
+  display: block;
+  display: none;
+  background: #FFF;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  box-shadow: 0 0 13px rgba(0,0,0,0.31);
+  position: absolute;
+  z-index: 1000;
+}
+.popbox .popbox-box div.title {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 2px 6px;
+  background-color: #eee;
+  background-image: -moz-linear-gradient(#eee, #dfdfdf);
+  background-image: -webkit-linear-gradient(#eee, #dfdfdf);
+  background-image: linear-gradient(#eee, #dfdfdf);
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #dfdfdf;
+}
+.popbox .popbox-box span.title {
+  font-weight: bold;
+  color: #111;
+  text-shadow: 1px 1px 0 #fff;
+  line-height: 27px;
+  font-size: 13px;
+}
+.popbox .popbox-box .popbox-content {
+  margin: 0;
+  padding: 8px;
+}
+.popbox .popbox-box .popbox-error {
+  border: 1px solid red;
+  padding: 6px;
+  margin: 4px 7px;
+}
+.popbox .popbox-box span.popbox-close {
+  display: block;
+  float: right;
+  width: 16px;
+  height: 16px;
+  color: #CCC;
+  cursor: pointer;
+  line-height: 27px;
+  font-size: 15px;
+}
+.popbox .popbox-box span.popbox-close:hover, .popbox .popbox-box span.popbox-close:active {
+  color: #777;
+}
+

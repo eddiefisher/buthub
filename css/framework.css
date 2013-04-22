@@ -1,0 +1,56 @@
+@charset "UTF-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;}
+input,button,textarea{margin:0;padding:0;font-size:100%;font-family:inherit;}
+button{-moz-box-sizing:content-box;box-sizing:content-box;}
+html,body{height:100%;min-width:960px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;font-size:100%;font:inherit;}
+html{overflow-y:scroll;}
+article,aside,header,footer,nav,section,figure,figcaption,hgroup,progress,canvas{display:block;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+strong,b{font-weight:bold;}
+em,i{font-style:italic;}
+:-moz-ui-invalid{box-shadow:none;}
+
+body { font:13px/1.2 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif}
+pre,code{font-family:'DejaVu Sans Mono',Menlo,Consolas,monospace}
+hr{border:0 solid #ccc;border-top-width:1px;clear:both;height:0}
+h1{font-size:25px}
+h2{font-size:23px}
+h3{font-size:21px}
+h4{font-size:19px}
+h5{font-size:17px}
+h6{font-size:15px}
+ol{list-style:decimal}
+ul{list-style:disc}
+li{margin-left:20px}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,figure{margin-bottom:10px}
+
+body{min-width:960px}
+.container {margin-right:auto;margin-left:auto;width:960px;}
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12{display:inline;float:left;margin-right:10px;margin-left:10px}
+.grid_1  {width:60px}
+.grid_2  {width:140px}
+.grid_3  {width:220px}
+.grid_4  {width:300px}
+.grid_5  {width:380px}
+.grid_6  {width:460px}
+.grid_7  {width:540px}
+.grid_8  {width:620px}
+.grid_9  {width:700px}
+.grid_10 {width:780px}
+.grid_11 {width:860px}
+.grid_12 {width:940px}
+.alpha{margin-right:0}
+.omega{margin-left:0}
+.right {float: right;}
+.left {float: left;}
+.tright {text-align: right;}
+.tleft {text-align: left;}
+.hide {display: none;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix, .container {
+  zoom:1;
+}
+.clearfix:after, .container:after {clear:both}
+.clearfix:before, .container:before, .clearfix:after, .container:after {content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0;}
